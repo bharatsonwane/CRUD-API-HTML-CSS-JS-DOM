@@ -1,0 +1,109 @@
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 10px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.main {
+  padding: 16px;
+  margin-top: 30px;
+  height: 100vh;
+}
+
+#img1 {
+  background-image: url("todoimage.png");
+  height: 600px;
+}
+h2, h3 {
+    padding: 15px;
+    text-align : center
+}
+
+image {
+  width: 100%;
+  height: 100%;
+}
+
+form {
+  background: #fff;
+  box-sizing: border-box;
+  box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.4);
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 15px auto;
+  padding: 15px;
+  width: 500px;
+}
+
+.form-label {
+  display: inline-block;
+  font-size: 16px;
+  margin: 0 5px 5px 0;
+  text-align: right;
+  width: 30%;
+}
+
+.field-row {
+  position: relative;
+  width: 100%;
+}
+.error {
+  color: orange;
+}
+
+.field-btn {
+  margin-left: 30%;
+}
+
+/* form {
+    padding: 10px 10%;
+    height: 460px;   
+} */
+
+.retrive {
+  overflow: auto;
+}
+textarea {
+    vertical-align: top;
+  }
+.col {
+    padding: 5px;
+    color: rgb(54, 2, 6);
+}
+
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 15px;
+  }
+
+footer {
+    position: relative;
+    height: 25px;
+    width: 100%;
+    bottom: 0;
+    background-color: rgb(114, 180, 70);
+    text-align: center;
+    /* padding-top: 5px 5px; */
+    color: white;
+  }
+
+
+  /* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  nav, .main,.form-label, footer {   
+    flex-direction: column;
+  }
+}
